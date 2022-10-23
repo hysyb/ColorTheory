@@ -11,3 +11,13 @@
     place-items: center;
     z-index: 2;
 }
+.form {
+    height: 200px;
+    width: 175px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    opacity: 85%;
+}

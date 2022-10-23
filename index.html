@@ -10,11 +10,28 @@
 </head>
 <body>
     <div class="btn-overlay">
-        <button id="generate">Generate!</button>
+
+        <div class="form" id="overlayForm">
+            <label for = 'complimentary'> 
+                <input type="radio" name = 'generation-selection' id = 'complimentary' checked >
+            Complimentary Colors</label>
+            <label for = 'adjacent-tri'> 
+                <input type="radio" name = 'generation-selection' id="adjacent-tri">
+            Adjacent Tricolors</label>
+            <label for = 'triad-color'>
+                <input type="radio" name = 'generation-selection' id = 'triad-color'>
+            Triad Colors</label>
+            <label for = 'tetrad-color'>
+            <input type="radio" name = 'generation-selection' id = 'tetrad-color'>
+            Tetrad Colors</label>
+            <button id="generate">Generate!</button>
+        </div>
     </div>
     <div id="main" class="main">
         <div id = 'color1' class="color1"></div>
         <div id = 'color2' class="color2"></div>
+        <div id = 'color3' class="color3"></div>
+        <div id = 'color4' class="color4"></div>
     </div>
 </body>
 </html>
