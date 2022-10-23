@@ -1,0 +1,13 @@
+.main {
+    background-color: hsl(0,100%,50%);
+    height: 100vh;
+    width: 100vw;
+}
+.btn-overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    z-index: 2;
+}
